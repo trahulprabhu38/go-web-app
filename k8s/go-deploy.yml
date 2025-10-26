@@ -18,7 +18,7 @@ spec:
         app: go-deploy
     spec:
       containers:
-      - image: trahulprabhu38/go-web-app:v1.0
+      - image: trahulprabhu38/go-web-app:v1
         name: go-web-app
         ports:
         - containerPort: 8080
